@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/Palcode_AI/Images/train
+val: /content/drive/MyDrive/Palcode_AI/Images/val
+
+nc: 2
+names: ['window', 'door']

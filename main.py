@@ -9,7 +9,7 @@ import requests
 app = FastAPI()
 
 MODEL_PATH = "best.pt"
-MODEL_URL = "https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/best.pt"
+MODEL_URL = "https://github.com/SarahPendhari/palcode_ai_assignment/releases/download/v1/best.pt"
 
 # Download model weights if not present
 if not os.path.exists(MODEL_PATH):
